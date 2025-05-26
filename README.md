@@ -1,0 +1,1 @@
+# Depurando-com-GitHubCopilot
