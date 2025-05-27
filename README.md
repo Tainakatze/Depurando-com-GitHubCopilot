@@ -13,11 +13,11 @@ No entanto, o código desenvolvido inicialmente pela equipe contém erros lógic
 
 ---
 
-## 🔢 **Entrada**
+## **Entrada**
 📌 A primeira linha da entrada será um número inteiro `N` (**3 ≤ N ≤ 60**), representando o número máximo de caracteres permitidos no resumo (**incluindo as reticências, caso o texto seja cortado**).  
 📌 A segunda linha será uma **string** com até **60 caracteres**, representando o texto do post.
 
-## 🎯 **Saída**
+## **Saída**
 O programa deverá retornar:
 ✅ O **texto original sem modificações**, caso ele tenha `N` ou menos caracteres.  
 ✅ Caso o texto ultrapasse o limite `N`, o programa deve:  
@@ -29,7 +29,7 @@ O programa deverá retornar:
 ## 📌 **Exemplos:**
 Aqui estão alguns exemplos de entrada e saída esperadas:
 
-| 🏷️ Entrada | 🖥️ Saída |
+|  Entrada |  Saída |
 |------------|---------|
 | **26** <br> Bem-vindo ao nosso blog sobre tecnologia. | Bem-vindo ao nosso blog... |
 | **32** <br> Aprenda a programar em Python hoje mesmo! | Aprenda a programar em Python... |
@@ -37,7 +37,7 @@ Aqui estão alguns exemplos de entrada e saída esperadas:
 
 ---
 
-## 🚧 **Código antes da correção:**
+## **Código antes da correção:**
 ```python
 max_length = int(input())
 user_input = input()
@@ -54,7 +54,7 @@ print(output)
 
 ---
 
-## ✅ **Código corrigido:**
+## **Código corrigido:**
 ```python
 # Entrada do número máximo de caracteres permitidos
 n = int(input())
@@ -77,7 +77,7 @@ print(saida)
 
 ---
 
-## 🚀 **Melhorias Implementadas:**
+## **Melhorias Implementadas:**
 
 ### 🧪 **1. Testes Unitários:**
 Criamos testes automatizados para validar os diferentes cenários:
@@ -165,7 +165,7 @@ class Post(models.Model):
 
 ---
 
-## 🎯 **Conclusão:**
+## **Conclusão:**
 Com essas melhorias, o programa ficou mais robusto, seguro e flexível, garantindo que:
 ✔️ Textos dentro do limite sejam exibidos sem alterações.  
 ✔️ Textos maiores que o limite sejam truncados corretamente.  
